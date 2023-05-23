@@ -1,0 +1,108 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: monospace;
+    background-image: url(https://i.postimg.cc/MTvwLCSd/wesley-tingey-AZt-MXhe-Xn-Wc-unsplash.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.heading {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    padding: 5px;
+}
+
+.container {
+    width: 60vh;
+    height: 60vh;
+    border: 2px solid white;
+    padding: 10px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 25px;
+}
+
+
+button {
+    display: block;
+    margin: auto;
+    border: 1px solid white;
+    border-radius: 10px;
+    height: 50px;
+    width: 70px;
+    background: transparent;
+    padding: 5px;
+    color: black;
+    font-size: medium;
+    overflow: hidden;
+  box-shadow: 0 0 0 0 transparent;
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+    
+}
+
+button:hover {
+    color: black;
+    background: white;
+  box-shadow: 0 0 30px 5px white;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+
+}
+
+.height-container {
+    text-align: center;
+    padding: 15px;
+    margin: 10px;
+}
+
+.weight-container {
+    text-align: center;
+    padding: 15px;
+    margin: 10px;
+}
+
+input {
+    height: 30px;
+    width: 85%;
+    background: transparent;
+    border-top: 2px solid white;
+    border-left: 2px solid white;
+    border-right: none;
+    border-bottom: none;
+    font-size: 16px;
+    font-family: monospace;
+}
+p {
+    font-size: 18px;
+    padding: 15px;
+}
+::placeholder {
+    color: white;
+}
+
+@media screen and (max-width: 430px) {
+    .container {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    .container {
+        width: 80%;
+        margin: auto;
+    }
+}
