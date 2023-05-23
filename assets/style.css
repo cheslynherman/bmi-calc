@@ -104,5 +104,6 @@ p {
     .container {
         width: 80%;
         margin: auto;
+        height: 80vh;
     }
 }
